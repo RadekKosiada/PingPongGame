@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#gameCanvas {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+body {  
+  background-color: beige;
+}
+
+#rules {
+  font-family: Arial;
+  font-size: 18px;
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #023B0D;
+  margin-top: 20px;
+  margin-left: 13em;
+  margin-right: 13em;
+  border: 1px solid #023B0D;
+  padding: 10px;
+}
