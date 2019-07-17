@@ -20,7 +20,7 @@ const PADDLE_THICKNESS = 10;
 
 
 function calculateMousePos(evt) {
-    var rect = canvas.getBoundingClientRect(); //????
+    var rect = canvas.getBoundingClientRect(); 
     var root = document.documentElement;
     var mouseX = evt.clientX - rect.left - root.scrollLeft;
     var mouseY = evt.clientY - rect.top - root.scrollTop;
@@ -59,11 +59,6 @@ window.onload = function () {
 
         });
 }
-
-/* var delay;
-function delayBall() {
-    delay = window.setTimeout(ballReset, 1000);
-}*/
 
 function ballReset() {
 
